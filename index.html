@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>miTienda 2.0</title>
+  <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="shortcut icon" href="img/carrito.jpg">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Indie+Flower|Kodchasan&display=swap" rel="stylesheet">
+
+<!-- de la galería -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+<script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+</head>
+<body>
+<div class="container">
+<nav class="row">
+    <div class="nav-wrapper col m12">
+      <div class="col m3">
+      <a href="#" class="brand-logo"><img class="logo" src="img/logo.png">miTienda</a>
+    </div>  
+     <div class="col m12">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Inicio</a></li>
+        <li><a href="badges.html">Novedades</a></li>
+        <li><a href="collapsible.html">Ofertas</a></li>
+        <li><a href="collapsible.html">Cómo comprar</a></li>
+        <li><a href="empresa.html">Nosotros</a></li>        
+        <li><a href="cuenta.html">Mi cuenta</a></li>
+        <li><form id="form-busca" action="buscar.php" method="post">
+        <input type="search" id="buscador" name="buscador" placeholder="Buscar...">
+        </form></li>
+        <li><i class="material-icons prefix">search</i></li>
+
+      </ul></div> 
+    </div>
+  </nav>
+<div class="row">
+		<div class="slider col m12">
+		    <div><img src="img/slide1.jpg"></div>
+		    <div><img src="img/slide2.jpg"></div>
+		    <div><img src="img/slide3.jpg"></div>
+	  	</div>
+	</div>
+
+<div class="row cajas">
+  <div class="col m4"><i class="material-icons medium">airport_shuttle</i><div class="titulo">REALIZAMOS ENVÍOS</div>A todo zona sur del GBA.</div>
+  <div class="col m4"><i class="material-icons medium">credit_card</i><div class="titulo">MEDIOS DE PAGO</div><div>Tarjeta de crédito y débito <br>a través de mercadopago</div></div>
+  <div class="col m4"><i class="material-icons medium">phone</i><div class="titulo">LLAMANOS</div><div>+54 11 1234 5678 <br> o mandanos un whatsapp</div></div>
+</div>
+
+<div class="row">
+	<div class="col m8 offset-m2">
+   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p> 
+
+	</div>
+	
+</div>
+<footer>
+	<p>2019 - Desarrollado por LF & LR</p>
+</footer>
+
+</div>
+
+<script>
+	
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</body>
+</html>
